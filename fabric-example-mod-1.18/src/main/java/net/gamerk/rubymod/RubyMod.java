@@ -1,15 +1,15 @@
-package net.gamerk.enchantbookmod;
+package net.gamerk.rubymod;
 
 import net.fabricmc.api.ModInitializer;
-import net.gamerk.enchantbookmod.item.ModItems;
+import net.gamerk.rubymod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class EnchantBookMod implements ModInitializer {
+public class RubyMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final String MOD_ID = "enchantbookmod";
+	public static final String MOD_ID = "rubymod";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	public void onInitialize() {

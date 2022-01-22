@@ -1,6 +1,6 @@
-package net.gamerk.enchantbookmod.mixin;
+package net.gamerk.rubymod.mixin;
 
-import net.gamerk.enchantbookmod.EnchantBookMod;
+import net.gamerk.rubymod.RubyMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		EnchantBookMod.LOGGER.info("This line is printed by an example mod mixin!");
+		RubyMod.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }
