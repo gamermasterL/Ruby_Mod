@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "enchantbookmod",
+  "id": "rubymod",
   "version": "${version}",
 
-  "name": "Enchant Book Mod",
+  "name": "Ruby Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.gamerk.enchantbookmod.EnchantBookMod"
+      "net.gamerk.rubymod.RubyMod"
     ]
   },
   "mixins": [
-    "enchantbookmod.mixins.json"
+    "rubymod.mixins.json"
   ],
 
   "depends": {

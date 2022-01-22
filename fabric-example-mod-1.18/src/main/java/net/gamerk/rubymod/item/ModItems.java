@@ -11,6 +11,9 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
+    public static final Item RUBY_FRAGMENTS = registerItem("ruby_fragments",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(RubyMod.MOD_ID, name), item);
     }
