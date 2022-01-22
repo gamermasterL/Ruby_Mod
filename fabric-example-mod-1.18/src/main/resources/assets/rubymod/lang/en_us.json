@@ -4,5 +4,8 @@
 
 
 
-  "block.rubymod.ruby_block": "Ruby Block"
+  "block.rubymod.ruby_block": "Ruby Block",
+  "block.rubymod.ruby_ore": "Ruby Ore",
+
+  "itemGroup.rubymod.ruby": "Jewel Ruby Tab"
 }
