@@ -1,6 +1,6 @@
 {
   "replace": false,
-  "values": [
+  "values":[
     "rubymod:ruby_ore",
     "rubymod:ruby_block"
   ]

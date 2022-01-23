@@ -2,7 +2,11 @@
   "item.rubymod.ruby": "Ruby",
   "item.rubymod.ruby_fragments": "Ruby Fragment",
 
-
+  "item.rubymod.ruby_sword": "Ruby Sword",
+  "item.rubymod.ruby_axe": "Ruby Axe",
+  "item.rubymod.ruby_hoe": "Ruby hoe",
+  "item.rubymod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.rubymod.ruby_shovel": "Ruby Shovel",
 
   "block.rubymod.ruby_block": "Ruby Block",
   "block.rubymod.ruby_ore": "Ruby Ore",

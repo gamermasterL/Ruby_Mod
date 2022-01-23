@@ -2,8 +2,10 @@ package net.gamerk.rubymod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.gamerk.rubymod.RubyMod;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.gamerk.rubymod.item.custom.ModHoeItem;
+import net.gamerk.rubymod.item.custom.ModPickaxeItem;
+import net.gamerk.rubymod.item.custom.ModeAxeItem;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -13,6 +15,24 @@ public class ModItems {
 
     public static final Item RUBY_FRAGMENTS = registerItem("ruby_fragments",
             new Item(new FabricItemSettings().group(ModItemGroup.RUBY)));
+
+    public static final Item RUBY_SWORD = registerItem("ruby_sword",
+            new SwordItem(ModToolMaterial.RUBY, 2, 1f,
+                    new FabricItemSettings().group(ModItemGroup.RUBY)));
+    public static final Item RUBY_SHOVEL = registerItem("ruby_shovel",
+            new ShovelItem(ModToolMaterial.RUBY, 0, 1f,
+                    new FabricItemSettings().group(ModItemGroup.RUBY)));
+
+    public static final Item RUBY_AXE = registerItem("ruby_axe",
+            new ModeAxeItem(ModToolMaterial.RUBY, 4, -1f,
+                    new FabricItemSettings().group(ModItemGroup.RUBY)));
+    public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe",
+            new ModPickaxeItem(ModToolMaterial.RUBY, 0, 1f,
+                    new FabricItemSettings().group(ModItemGroup.RUBY)));
+    public static final Item RUBY_HOE = registerItem("ruby_hoe",
+            new ModHoeItem(ModToolMaterial.RUBY, 0, 0f,
+                    new FabricItemSettings().group(ModItemGroup.RUBY)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(RubyMod.MOD_ID, name), item);
