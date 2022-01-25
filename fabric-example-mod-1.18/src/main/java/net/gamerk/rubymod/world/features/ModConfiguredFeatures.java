@@ -18,7 +18,7 @@ public class ModConfiguredFeatures {
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.RUBY_ORE.getDefaultState()));
 
     public static final ConfiguredFeature<?, ?> RUBY_ORE = register("ruby_ore",
-            Feature.ORE.configure(new OreFeatureConfig(OVERWORLD_RUBY_ORES, 9)));
+            Feature.ORE.configure(new OreFeatureConfig(OVERWORLD_RUBY_ORES, 15)));
 
     public static <FC extends FeatureConfig> ConfiguredFeature<FC, ?> register(String name, ConfiguredFeature<FC, ?> configuredFeature) {
         return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(RubyMod.MOD_ID, name),

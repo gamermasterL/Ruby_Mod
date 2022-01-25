@@ -8,6 +8,11 @@
   "item.rubymod.ruby_pickaxe": "Ruby Pickaxe",
   "item.rubymod.ruby_shovel": "Ruby Shovel",
 
+  "item.rubymod.ruby_helmet": "Ruby Helmet",
+  "item.rubymod.ruby_chestplate": "Ruby Chest Plate",
+  "item.rubymod.ruby_leggings": "Ruby Leggings",
+  "item.rubymod.ruby_boots": "Ruby Boots",
+
   "block.rubymod.ruby_block": "Ruby Block",
   "block.rubymod.ruby_ore": "Ruby Ore",
 
