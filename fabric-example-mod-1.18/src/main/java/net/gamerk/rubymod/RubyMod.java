@@ -3,6 +3,7 @@ package net.gamerk.rubymod;
 import net.fabricmc.api.ModInitializer;
 import net.gamerk.rubymod.Blocks.ModBlocks;
 import net.gamerk.rubymod.item.ModItems;
+import net.gamerk.rubymod.world.gen.ModWorldGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,6 +18,7 @@ public class RubyMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGen.generateModWorldGen();
 
 	}
 }
