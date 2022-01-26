@@ -11,7 +11,11 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements ArmorMaterial {
-    RUBY("ruby", 28, new int[]{3, 5, 7, 3}, 25, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
+    RUBY("ruby", 28, new int[]{3, 5, 7, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
+            0.0f, 0.0f, () -> {
+        return Ingredient.ofItems(ModItems.RUBY);
+    }),
+    RUBY_NETHITERITE("ruby_netherite", 43, new int[]{4, 7, 9, 4}, 23, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
             0.0f, 0.0f, () -> {
         return Ingredient.ofItems(ModItems.RUBY);
     });

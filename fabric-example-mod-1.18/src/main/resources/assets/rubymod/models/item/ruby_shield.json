@@ -1,0 +1,14 @@
+{
+  "parent": "fabricshieldlib:item/fabric_shield",
+  "textures": {
+    "shield": "rubymod:item/ruby_shield"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "rubymod:item/ruby_shield_blocking"
+    }
+  ]
+}

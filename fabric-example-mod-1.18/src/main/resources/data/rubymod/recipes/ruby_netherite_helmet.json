@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "addition": {
+    "item": "rubymod:ruby_netherite_ingot"
+  },
+  "result": {
+    "item": "rubymod:ruby_netherite_helmet"
+  }
+}
