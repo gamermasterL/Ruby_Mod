@@ -8,7 +8,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    RUBY(MiningLevels.IRON, 1200, 7.0f, 2.5f, 12, () -> Ingredient.ofItems(ModItems.RUBY));
+    RUBY(MiningLevels.DIAMOND, 1200, 7.5f, 2.7f, 12, () -> Ingredient.ofItems(ModItems.RUBY));
 
     private final int miningLevel;
     private final int itemDurability;

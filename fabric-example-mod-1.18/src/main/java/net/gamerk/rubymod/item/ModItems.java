@@ -16,6 +16,14 @@ public class ModItems {
     public static final Item RUBY_FRAGMENTS = registerItem("ruby_fragments",
             new Item(new FabricItemSettings().group(ModItemGroup.RUBY)));
 
+    public static final Item QUARTZ_DUST= registerItem("quartz_dust",
+            new Item(new FabricItemSettings().group(ModItemGroup.RUBY)));
+    public static final Item HEATED_QUARTZ = registerItem("heated_quartz",
+            new Item(new FabricItemSettings().group(ModItemGroup.RUBY)));
+    public static final Item NON_BAKED_INGREDIENT = registerItem("non_baked_ingredient",
+            new Item(new FabricItemSettings().group(ModItemGroup.RUBY)));
+
+
     public static final Item RUBY_SWORD = registerItem("ruby_sword",
             new SwordItem(ModToolMaterial.RUBY, 2, 1f,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
@@ -41,7 +49,7 @@ public class ModItems {
     public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
             new ArmorItem(ModArmorMaterial.RUBY,  EquipmentSlot.LEGS,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
-        public static final Item RUBY_BOOTS = registerItem("ruby_boots",
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots",
             new ArmorItem(ModArmorMaterial.RUBY,  EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
 

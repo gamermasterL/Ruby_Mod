@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "quartz",
+  "ingredient": {
+    "item": "rubymod:heated_quartz"
+  },
+  "result": "rubymod:quartz_dust",
+  "experience": 1,
+  "cookingtime": 700
+}
