@@ -1,6 +1,7 @@
 {
   "item.rubymod.ruby": "Ruby",
   "item.rubymod.ruby_fragments": "Ruby Fragment",
+  "item.rubymod.ruby_netherite_ingot": "Ruby Netherite Ingot",
 
   "item.rubymod.ruby_sword": "Ruby Sword",
   "item.rubymod.ruby_axe": "Ruby Axe",
@@ -8,10 +9,21 @@
   "item.rubymod.ruby_pickaxe": "Ruby Pickaxe",
   "item.rubymod.ruby_shovel": "Ruby Shovel",
 
+  "item.rubymod.ruby_netherite_sword": "Ruby Netherite Sword",
+  "item.rubymod.ruby_netherite_axe": "Ruby Netherite Axe",
+  "item.rubymod.ruby_netherite_hoe": "Ruby Netherite hoe",
+  "item.rubymod.ruby_netherite_pickaxe": "Ruby Netherite Pickaxe",
+  "item.rubymod.ruby_netherite_shovel": "Ruby Netherite Shovel",
+
   "item.rubymod.ruby_helmet": "Ruby Helmet",
   "item.rubymod.ruby_chestplate": "Ruby Chest Plate",
   "item.rubymod.ruby_leggings": "Ruby Leggings",
   "item.rubymod.ruby_boots": "Ruby Boots",
+
+  "item.rubymod.ruby_netherite_helmet": "Ruby Netherite Helmet",
+  "item.rubymod.ruby_netherite_chestplate": "Ruby Netherite Chest Plate",
+  "item.rubymod.ruby_netherite_leggings": "Ruby Nertherite Leggings",
+  "item.rubymod.ruby_netherite_boots": "Ruby Netherite Boots",
 
   "item.rubymod.ruby_shield": "Ruby Shield",
 

@@ -3,6 +3,7 @@ package net.gamerk.rubymod.item;
 import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.gamerk.rubymod.RubyMod;
+import net.gamerk.rubymod.item.custom.ModArmorItem;
 import net.gamerk.rubymod.item.custom.ModHoeItem;
 import net.gamerk.rubymod.item.custom.ModPickaxeItem;
 import net.gamerk.rubymod.item.custom.ModeAxeItem;
@@ -65,7 +66,7 @@ public class ModItems {
                     10,13, ModItems.RUBY));
 
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
-            new ArmorItem(ModArmorMaterial.RUBY,  EquipmentSlot.HEAD,
+            new ModArmorItem(ModArmorMaterial.RUBY,  EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
     public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
             new ArmorItem(ModArmorMaterial.RUBY,  EquipmentSlot.CHEST,
@@ -78,7 +79,7 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
 
     public static final Item RUBY_NETHERITE_HELMET = registerItem("ruby_netherite_helmet",
-            new ArmorItem(ModArmorMaterial.RUBY_NETHITERITE,  EquipmentSlot.HEAD,
+            new ModArmorItem(ModArmorMaterial.RUBY_NETHITERITE,  EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
     public static final Item RUBY_NETHERITE_CHESTPLATE = registerItem("ruby_netherite_chestplate",
             new ArmorItem(ModArmorMaterial.RUBY_NETHITERITE,  EquipmentSlot.CHEST,
