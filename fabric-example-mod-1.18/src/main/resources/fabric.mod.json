@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.gamerk.rubymod.RubyMod"
+    ],
+    "client": [
+      "net.gamerk.rubymod.RubyModClient"
     ]
   },
   "mixins": [

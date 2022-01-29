@@ -3,14 +3,15 @@ package net.gamerk.rubymod.item;
 import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.gamerk.rubymod.RubyMod;
-import net.gamerk.rubymod.item.custom.ModArmorItem;
-import net.gamerk.rubymod.item.custom.ModHoeItem;
-import net.gamerk.rubymod.item.custom.ModPickaxeItem;
-import net.gamerk.rubymod.item.custom.ModeAxeItem;
+import net.gamerk.rubymod.enchantments.ExplodeEnchantment;
+import net.gamerk.rubymod.enchantments.ModEnchantment;
+import net.gamerk.rubymod.item.custom.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import wraith.enchant_giver.EnchantsList;
+
 
 public class ModItems {
     public static final Item RUBY = registerItem("ruby",
@@ -91,6 +92,9 @@ public class ModItems {
             new ArmorItem(ModArmorMaterial.RUBY_NETHITERITE,  EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
 
+    public static final Item RUBY_BOW = registerItem("ruby_bow",
+            new ModBowItem(new FabricItemSettings().maxDamage(600).group(ModItemGroup.RUBY)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(RubyMod.MOD_ID, name), item);
@@ -99,4 +103,6 @@ public class ModItems {
     public static void registerModItems() {
         RubyMod.LOGGER.info("Registring Mod Items for " + RubyMod.MOD_ID);
     }
+
+
 }
