@@ -12,12 +12,13 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class ModBlocks {
+public class ModBlock2 {
 
-    public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.RUBY);
-    public static final Block RUBY_ORE = registerBlock("ruby_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.RUBY);
+    public static final Block COBALT_BLOCK = registerBlock("cobalt_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.COBALT);
+    public static final Block COBALT_ORE = registerBlock("cobalt_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.6f).requiresTool()), ModItemGroup.COBALT);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

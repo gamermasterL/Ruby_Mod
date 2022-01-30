@@ -3,14 +3,11 @@ package net.gamerk.rubymod.item;
 import com.github.crimsondawn45.fabricshieldlib.lib.object.FabricShieldItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.gamerk.rubymod.RubyMod;
-import net.gamerk.rubymod.enchantments.ExplodeEnchantment;
-import net.gamerk.rubymod.enchantments.ModEnchantment;
 import net.gamerk.rubymod.item.custom.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import wraith.enchant_giver.EnchantsList;
 
 
 public class ModItems {

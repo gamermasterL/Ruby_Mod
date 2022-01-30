@@ -38,5 +38,6 @@
 
   "itemGroup.rubymod.ruby": "Jewel Ruby Tab",
 
-  "enchantment.rubymod.Explode": "explode"
+  "enchantment.rubymod.explode": "Explode",
+  "enchantment.rubymod.freezing": "Freezing"
 }

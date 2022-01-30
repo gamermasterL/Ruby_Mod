@@ -2,10 +2,12 @@ package net.gamerk.rubymod;
 
 import net.fabricmc.api.ModInitializer;
 import net.gamerk.rubymod.Blocks.ModBlocks;
+import net.gamerk.rubymod.enchantments.FreezingEnchantment;
 import net.gamerk.rubymod.enchantments.ModEnchantment;
 import net.gamerk.rubymod.item.ModItems;
 import net.gamerk.rubymod.item.ModItems2;
 import net.gamerk.rubymod.world.gen.ModWorldGen;
+import net.minecraft.enchantment.Enchantment;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

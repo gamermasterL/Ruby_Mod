@@ -12,6 +12,9 @@ public class ModEnchantment {
             new ExplodeEnchantment(Enchantment.Rarity.UNCOMMON,
                     EnchantmentTarget.BOW, EquipmentSlot.MAINHAND));
 
+    public static Enchantment FREEZING = register("freezing",
+            new FreezingEnchantment(Enchantment.Rarity.UNCOMMON,
+                    EnchantmentTarget.BOW, EquipmentSlot.MAINHAND));
 
     private static Enchantment register(String name, Enchantment enchantment) {
         return Registry.register(Registry.ENCHANTMENT, new Identifier(RubyMod.MOD_ID, name), enchantment);

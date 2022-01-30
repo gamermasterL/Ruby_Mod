@@ -10,4 +10,7 @@ public class ModItemGroup {
 
     public static final ItemGroup RUBY = FabricItemGroupBuilder.build(new Identifier(RubyMod.MOD_ID, "ruby" ),
     () -> new ItemStack(ModItems.RUBY));
+
+    public static final ItemGroup COBALT = FabricItemGroupBuilder.build(new Identifier(RubyMod.MOD_ID, "cobalt"),
+    () -> new ItemStack(ModItems2.COBALT));
 }
