@@ -1,4 +1,71 @@
 {
+  "item.rubymod.topaz": "Topaz",
+  "item.rubymod.topaz_fragment": "Topaz Fragment",
+  "item.rubymod.topaz_netherite_ingot": "Topaz Netherite Ingot",
+
+  "item.rubymod.topaz_sword": "Topaz Sword",
+  "item.rubymod.topaz_axe": "Topaz Axe",
+  "item.rubymod.topaz_hoe": "Topaz hoe",
+  "item.rubymod.topaz_pickaxe": "Topaz Pickaxe",
+  "item.rubymod.topaz_shovel": "Topaz Shovel",
+
+  "item.rubymod.topaz_netherite_sword": "Topaz Netherite Sword",
+  "item.rubymod.topaz_netherite_axe": "Topaz Netherite Axe",
+  "item.rubymod.topaz_netherite_hoe": "Topaz Netherite hoe",
+  "item.rubymod.topaz_netherite_pickaxe": "Topaz Netherite Pickaxe",
+  "item.rubymod.topaz_netherite_shovel": "Topaz Netherite Shovel",
+
+  "item.rubymod.topaz_helmet": "Topaz Helmet",
+  "item.rubymod.topaz_chestplate": "Topaz Chest Plate",
+  "item.rubymod.topaz_leggings": "Topaz Leggings",
+  "item.rubymod.topaz_boots": "Topaz Boots",
+
+  "item.rubymod.topaz_netherite_helmet": "Topaz Netherite Helmet",
+  "item.rubymod.topaz_netherite_chestplate": "Topaz Netherite Chest Plate",
+  "item.rubymod.topaz_netherite_leggings": "Topaz Nertherite Leggings",
+  "item.rubymod.topaz_netherite_boots": "Topaz Netherite Boots",
+
+  "item.rubymod.non_baked_topaz_ingredient": "Non-Baked Topaz Ingedient",
+
+  "block.rubymod.topaz_block": "Topaz Block",
+  "block.rubymod.topaz_ore": "Topaz Ore",
+
+  "item.rubymod.cobalt": "Cobalt",
+  "item.rubymod.cobalt_fragment": "Cobalt Fragment",
+  "item.rubymod.cobalt_netherite_ingot": "Cobalt Netherite Ingot",
+
+  "item.rubymod.cobalt_sword": "Cobalt Sword",
+  "item.rubymod.cobalt_axe": "Cobalt Axe",
+  "item.rubymod.cobalt_hoe": "Cobalt hoe",
+  "item.rubymod.cobalt_pickaxe": "Cobalt Pickaxe",
+  "item.rubymod.cobalt_shovel": "Cobalt Shovel",
+
+  "item.rubymod.cobalt_netherite_sword": "Cobalt Netherite Sword",
+  "item.rubymod.cobalt_netherite_axe": "Cobalt Netherite Axe",
+  "item.rubymod.cobalt_netherite_hoe": "Cobalt Netherite hoe",
+  "item.rubymod.cobalt_netherite_pickaxe": "Cobalt Netherite Pickaxe",
+  "item.rubymod.cobalt_netherite_shovel": "Cobalt Netherite Shovel",
+
+  "item.rubymod.cobalt_bow": "Cobalt Bow",
+
+  "item.rubymod.cobalt_helmet": "Cobalt Helmet",
+  "item.rubymod.cobalt_chestplate": "Cobalt Chest Plate",
+  "item.rubymod.cobalt_leggings": "Cobalt Leggings",
+  "item.rubymod.cobalt_boots": "Cobalt Boots",
+
+  "item.rubymod.cobalt_netherite_helmet": "Cobalt Netherite Helmet",
+  "item.rubymod.cobalt_netherite_chestplate": "Cobalt Netherite Chest Plate",
+  "item.rubymod.cobalt_netherite_leggings": "Cobalt Nertherite Leggings",
+  "item.rubymod.cobalt_netherite_boots": "Cobalt Netherite Boots",
+
+  "item.rubymod.cobalt_shield": "Cobalt Shield",
+
+  "item.rubymod.non_baked_cobalt_ingredient": "Non-Baked Cobalt Ingedient",
+
+
+  "block.rubymod.cobalt_block": "Cobalt Block",
+  "block.rubymod.cobalt_ore": "Cobalt Ore",
+
   "item.rubymod.ruby": "Ruby",
   "item.rubymod.ruby_fragments": "Ruby Fragment",
   "item.rubymod.ruby_netherite_ingot": "Ruby Netherite Ingot",
@@ -29,15 +96,23 @@
 
   "item.rubymod.ruby_shield": "Ruby Shield",
 
-  "item.rubymod.non_baked_ingredient": "Non-Baked Ingedient",
-  "item.rubymod.heated_quartz": "Heated Quartz",
-  "item.rubymod.quartz_dust": "Quartz Dust",
+  "item.rubymod.non_baked_ruby_ingredient": "Non-Baked Ruby Ingedient",
 
-  "block.rubymod.ruby_block": "Ruby Block",
+
+  "block.rubymod.ruby_block": "Runy Block",
   "block.rubymod.ruby_ore": "Ruby Ore",
 
-  "itemGroup.rubymod.ruby": "Jewel Ruby Tab",
+  "block.rubymod.pressure": "Pressure Machine",
+  "itemGroup.rubymod.ruby": "Jewel-Ruby",
+  "itemGroup.rubymod.cobalt": "Jewel-Cobalt",
+  "itemGroup.rubymod.topaz_ore": "Jewel-Topaz",
 
   "enchantment.rubymod.explode": "Explode",
-  "enchantment.rubymod.freezing": "Freezing"
+  "enchantment.rubymod.freezing": "Freezing",
+  "enchantment.rubymod.weakness": "Weakness",
+  "enchantment.rubymod.slowness": "Slowness",
+  "enchantment.rubymod.lightning": "Lightning Strike",
+  "enchantment.rubymod.nether_boost": "Nether Boost",
+  "item.rubymod.heated_quartz": "Heated Quartz",
+  "item.rubymod.quartz_dust": "Quartz Dust"
 }

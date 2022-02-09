@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "":  [ { "model": "rubymod:block/cobalt_ore", "weight": 1 },
+      { "model": "rubymod:block/cobalt_ore1", "weight": 1 },
+      { "model": "rubymod:block/cobalt_ore2", "weight": 1 },
+      { "model": "rubymod:block/cobalt_ore3", "weight": 1 },
+      { "model": "rubymod:block/cobalt_ore4", "weight": 1 }
+    ] }
+}

@@ -4,6 +4,7 @@
   "package": "net.gamerk.rubymod.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "SmeltingMixin"
   ],
   "client": [
     "ExampleMixin"

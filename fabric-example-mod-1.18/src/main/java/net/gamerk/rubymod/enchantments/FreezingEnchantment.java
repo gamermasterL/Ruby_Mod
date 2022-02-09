@@ -6,7 +6,10 @@ import net.minecraft.entity.*;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
 import net.minecraft.server.world.ServerWorld;
+
+import static net.gamerk.rubymod.item.init.ModItems2.COBALT_NETHERITE_SWORD;
 
 public class FreezingEnchantment extends Enchantment {
     public FreezingEnchantment(Rarity weight, EnchantmentTarget type, EquipmentSlot... slotTypes) {
@@ -22,7 +25,7 @@ public class FreezingEnchantment extends Enchantment {
             PlayerEntity player = ((PlayerEntity) user);
 
             float chance = user.getRandom().nextFloat();
-            if (chance <= 0.3 + (level * 0.3)) {
+            if (chance <= 0.3 + (level * 0.1)) {
                 FreezingEnchantment.causeFreezing((LivingEntity) target, 100);
             }
 
@@ -38,6 +41,11 @@ public class FreezingEnchantment extends Enchantment {
     @Override
     public int getMaxLevel() {
         return 3;
+    }
+
+    @Override
+    public boolean isAcceptableItem(ItemStack stack) {
+        return stack.isOf(COBALT_NETHERITE_SWORD);
     }
 
     @Override

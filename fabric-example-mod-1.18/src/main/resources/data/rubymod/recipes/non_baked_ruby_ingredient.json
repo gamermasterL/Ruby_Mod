@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "#": {
+      "item": "rubymod:quartz_dust"
+    },
+    "@": {
+      "item": "minecraft:red_dye"
+    },
+    "%": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "rubymod:non_baked_ruby_ingredient"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rubymod:topaz"
+    },
+    "@": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "rubymod:topaz_netherite_ingot"
+  }
+}

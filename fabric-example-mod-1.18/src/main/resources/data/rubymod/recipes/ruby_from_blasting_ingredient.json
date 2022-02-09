@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "group": "quartz",
   "ingredient": {
-    "item": "rubymod:non_baked_ingredient"
+    "item": "rubymod:non_baked_ruby_ingredient"
   },
   "result": "rubymod:ruby",
   "experience": 3.5,

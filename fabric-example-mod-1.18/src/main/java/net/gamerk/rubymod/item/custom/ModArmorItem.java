@@ -17,12 +17,18 @@ import net.minecraft.world.World;
 import java.util.Map;
 import java.util.Random;
 
-public class ModArmorItem extends ArmorItem {
 
-    private static final Map<ArmorMaterial, StatusEffect> MATERIAL_STATUS_EFFECT_MAP =
+public class ModArmorItem extends ArmorItem {
+     private static final Map<ArmorMaterial, StatusEffect> MATERIAL_STATUS_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial,StatusEffect>())
                     .put(ModArmorMaterial.RUBY_NETHITERITE, StatusEffects.FIRE_RESISTANCE)
-                    .put(ModArmorMaterial.RUBY, StatusEffects.REGENERATION).build();
+                    .put(ModArmorMaterial.RUBY, StatusEffects.STRENGTH)
+                    .put(ModArmorMaterial.COBALT, StatusEffects.DOLPHINS_GRACE)
+                    .put(ModArmorMaterial.COBALT_NETHITERITE, StatusEffects.CONDUIT_POWER)
+                    .put(ModArmorMaterial.TOPAZ, StatusEffects.SPEED)
+                    .put(ModArmorMaterial.TOPAZ_NETHERITE, StatusEffects.SPEED)
+                    .put(ModArmorMaterial.AMBER, StatusEffects.HASTE)
+                    .put(ModArmorMaterial.AMBER_NETHERITE, StatusEffects.HASTE).build();
 
 
     public ModArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
@@ -57,13 +63,9 @@ public class ModArmorItem extends ArmorItem {
 
     private void addStatusEffectForMaterial(PlayerEntity player, ArmorMaterial mapArmorMaterial, StatusEffect mapStatusEffect) {
         boolean hasPlayerEffect = player.hasStatusEffect(mapStatusEffect);
-
-        if(hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
-            player.addStatusEffect(new StatusEffectInstance(mapStatusEffect, 200));
-
-            if(new Random().nextFloat() > 0.6f) { // 40% of damaging the armor! Possibly!
-                player.getInventory().damageArmor(DamageSource.LAVA, 1f, new int[]{0, 1, 2, 3});
-            }
+        if (hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
+            player.addStatusEffect(new StatusEffectInstance(mapStatusEffect, 200,
+                    mapArmorMaterial == ModArmorMaterial.AMBER || mapArmorMaterial == ModArmorMaterial.AMBER_NETHERITE ? 0 : 1));
         }
     }
 

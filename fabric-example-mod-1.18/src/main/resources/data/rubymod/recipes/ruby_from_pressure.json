@@ -1,0 +1,15 @@
+{
+  "type": "rubymod:pressure",
+  "weather": "thundering",
+  "ingredients": [
+    {
+      "item": "rubymod:non_baked_ruby_ingredient"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "output": {
+    "item": "rubymod:ruby"
+  }
+}

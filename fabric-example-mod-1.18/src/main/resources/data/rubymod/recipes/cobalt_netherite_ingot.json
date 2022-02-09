@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rubymod:cobalt"
+    },
+    "@": {
+      "item": "minecraft:netherite"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobalt_netherite_ingot"
+  }
+}

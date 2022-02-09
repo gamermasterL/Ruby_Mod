@@ -12,8 +12,7 @@ group = project.maven_group
 
 repositories {
 	allprojects { repositories { maven { url 'https://jitpack.io' } } }
-	maven {
-		url "https://www.cursemaven.com"
+	maven {url "https://www.cursemaven.com"
 		content {
 			includeGroup "curse.maven"
 		}

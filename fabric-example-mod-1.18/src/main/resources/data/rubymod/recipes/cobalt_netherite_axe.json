@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "addition": {
+    "item": "rubymod:coabalt_netherite_ingot"
+  },
+  "result": {
+    "item": "rubymod:cobalt_netherite_axe"
+  }
+}

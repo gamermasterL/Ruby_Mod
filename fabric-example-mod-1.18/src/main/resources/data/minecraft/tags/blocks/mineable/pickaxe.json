@@ -1,7 +1,11 @@
 {
   "replace": false,
-  "values":[
+  "values": [
     "rubymod:ruby_ore",
-    "rubymod:ruby_block"
+    "rubymod:ruby_block",
+    "rubymod:cobalt_block",
+    "rubymod:cobalt_ore",
+    "rubymod:topaz_block",
+    "rubymod:topaz_ore"
   ]
 }

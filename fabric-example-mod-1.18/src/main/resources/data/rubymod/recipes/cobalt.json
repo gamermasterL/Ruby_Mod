@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubymod:cobalt_block"
+    }
+  ],
+  "result": {
+    "item": "rubymod:cobalt",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubymod:topaz_block"
+    }
+  ],
+  "result": {
+    "item": "rubymod:topaz",
+    "count": 9
+  }
+}

@@ -14,10 +14,20 @@ import java.util.List;
 public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> RUBY_ORE_KEY = registerKey("ruby_ore");
+    public static final RegistryKey<PlacedFeature> COBALT_ORE_KEY = registerKey("cobalt_ore");
+    public static final RegistryKey<PlacedFeature> TOPAZ_ORE_KEY = registerKey("topaz_ore");
 
     public static final PlacedFeature RUBY_ORE_PLACED = registerPlacedFeature("ruby_ore",
-            ModConfiguredFeatures.RUBY_ORE.withPlacement(modifiersWithCount(7,
-                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80)))));
+            ModConfiguredFeatures.RUBY_ORE.withPlacement(modifiersWithCount(10,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-60), YOffset.aboveBottom(50)))));
+
+    public static final PlacedFeature COBALT_ORE_PLACED = registerPlacedFeature("cobalt_ore",
+            ModConfiguredFeatures.COBALT_ORE.withPlacement(modifiersWithCount(10,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-60), YOffset.aboveBottom(50)))));
+
+    public static final PlacedFeature TOPAZ_ORE_PLACED = registerPlacedFeature("topaz_ore",
+            ModConfiguredFeatures.TOPAZ_ORE.withPlacement(modifiersWithCount(10,
+                    HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(20), YOffset.aboveBottom(120)))));
 
 
     public static List<PlacementModifier> modifiers(PlacementModifier countModifier, PlacementModifier heightModifier) {

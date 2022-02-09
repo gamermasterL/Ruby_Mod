@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "rubymod:block/pressure2",
+    "down": "rubymod:block/pressure3",
+    "north": "rubymod:block/pressure",
+    "west": "rubymod:block/pressure",
+    "south": "rubymod:block/pressure",
+    "east": "rubymod:block/pressure",
+    "particle": "rubymod:block/pressure2"
+
+  }
+}

@@ -8,9 +8,12 @@
   "key": {
     "#": {
       "item": "rubymod:ruby"
+    },
+    "@": {
+      "item": "minecraft:netherite"
     }
   },
   "result": {
-    "item": "minecraft:netherite_ingot"
+    "item": "minecraft:ruby_netherite_ingot"
   }
 }

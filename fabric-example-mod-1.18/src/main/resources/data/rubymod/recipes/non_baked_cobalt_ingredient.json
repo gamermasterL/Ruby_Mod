@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "#": {
+      "item": "rubymod:quartz_dust"
+    },
+    "@": {
+      "item": "minecraft:blue_dye"
+    },
+    "%": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "rubymod:non_baked_cobalt_ingredient"
+  }
+}

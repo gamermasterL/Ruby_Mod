@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "#": {
+      "item": "rubymod:quartz_dust"
+    },
+    "@": {
+      "item": "minecraft:yellow_dye"
+    },
+    "%": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "rubymod:non_baked_topaz_ingredient"
+  }
+}
