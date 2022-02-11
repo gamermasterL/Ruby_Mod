@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "rubymod:ruby_ore",
+    "rubymod:ruby_ore_deepslate",
     "rubymod:ruby_block",
     "rubymod:cobalt_block",
     "rubymod:cobalt_ore",

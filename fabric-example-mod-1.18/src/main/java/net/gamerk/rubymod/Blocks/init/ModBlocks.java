@@ -19,9 +19,12 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.RUBY);
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.RUBY);
+    public static final Block RUBY_ORE_DEEPSLATE = registerBlock("ruby_ore_deepslate",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f, 1.5f).requiresTool()), ModItemGroup.RUBY);
 
     public static final Block PRESSURE = registerBlock("pressure",
             new PressureBlock(FabricBlockSettings.of(Material.METAL).strength(3.5f).requiresTool()), ModItemGroup.RUBY);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

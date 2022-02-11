@@ -23,14 +23,12 @@ public class ModBlock2 {
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(RubyMod.MOD_ID, name), block);
-
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup group) {
         return Registry.register(Registry.ITEM, new Identifier(RubyMod.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(group)));
     }
-
 
     public static void registerModBlocks() {
         RubyMod.LOGGER.info("Registering ModBlocks for " + RubyMod.MOD_ID);
