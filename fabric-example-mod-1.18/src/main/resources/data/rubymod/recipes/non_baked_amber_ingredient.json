@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#%#",
+    "%@%",
+    "#%#"
+  ],
+  "key": {
+    "#": {
+      "item": "rubymod:quartz_dust"
+    },
+    "@": {
+      "item": "minecraft:orange_dye"
+    },
+    "%": {
+      "item": "rubymod:cherry_log"
+    }
+  },
+  "result": {
+    "item": "rubymod:non_baked_amber_ingredient"
+  }
+}

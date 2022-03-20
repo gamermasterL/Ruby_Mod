@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "rubymod:cherry_log",
+    "rubymod:stripped_cherry_log"
+  ]
+}

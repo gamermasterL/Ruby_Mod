@@ -1,11 +1,15 @@
 package net.gamerk.rubymod.item.init;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.gamerk.rubymod.RubyMod;
 import net.gamerk.rubymod.item.ModArmorMaterial;
 import net.gamerk.rubymod.item.ModItemGroup;
+import net.gamerk.rubymod.item.ModToolMaterial;
 import net.gamerk.rubymod.item.custom.ModArmorItem;
+import net.gamerk.rubymod.item.custom.ModPickaxeItem;
 import net.gamerk.rubymod.item.custom.ModSwordItem;
+import net.gamerk.rubymod.item.custom.ModeAxeItem;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
@@ -26,6 +30,18 @@ public class ModItems4 {
     public static final Item AMBER_NETHERITE_INGOT = registerItem("amber_netherite_ingot",
             new Item(new FabricItemSettings().group(ModItemGroup.AMBER)));
 
+    public static final Item AMBER_PICKAXE = registerItem("amber_pickaxe",
+            new ModPickaxeItem(ModToolMaterial.AMBER, 0, 1f,
+                    new FabricItemSettings().group(ModItemGroup.AMBER)));
+    public static final Item AMBER_NETHERITE_PICKAXE = registerItem("amber_netherite_pickaxe",
+            new ModPickaxeItem(ModToolMaterial.AMBER_NETHERITE, 0, 1.2f,
+                    new FabricItemSettings().group(ModItemGroup.AMBER)));
+    public static final Item AMBER_AXE = registerItem("amber_axe",
+            new ModeAxeItem(ModToolMaterial.AMBER, 4.3f, -0.8f,
+                    new FabricItemSettings().group(ModItemGroup.AMBER)));
+    public static final Item AMBER_NETHERITE_AXE = registerItem("amber_netherite_axe",
+            new ModeAxeItem(ModToolMaterial.AMBER_NETHERITE, 6.0f, -0.8f,
+                    new FabricItemSettings().group(ModItemGroup.AMBER)));
 
     public static final Item AMBER_HELMET = registerItem("amber_helmet",
             new ModArmorItem(ModArmorMaterial.AMBER,  EquipmentSlot.HEAD,
@@ -53,8 +69,8 @@ public class ModItems4 {
             new ArmorItem(ModArmorMaterial.AMBER_NETHERITE,  EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.AMBER)));
 
-    public static void appendEnchant() {
-    }
+    public static final Item WOOD_RESIN = registerItem("wood_resin",
+            new Item(new FabricItemSettings().group(ModItemGroup.AMBER)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(RubyMod.MOD_ID, name), item);

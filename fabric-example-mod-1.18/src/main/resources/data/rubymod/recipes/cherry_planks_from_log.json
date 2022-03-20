@@ -1,0 +1,12 @@
+{
+"type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubymod:cherry_log"
+    }
+  ],
+  "result": {
+    "item": "rubymod:cherry_planks",
+    "count": 4
+  }
+}

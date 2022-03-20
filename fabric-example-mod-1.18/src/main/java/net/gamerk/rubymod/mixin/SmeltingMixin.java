@@ -6,6 +6,9 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityType;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.SpawnReason;
 import net.minecraft.item.ItemStack;
 import net.minecraft.recipe.RecipeType;
 import net.minecraft.recipe.SmeltingRecipe;
@@ -42,7 +45,7 @@ public class SmeltingMixin {
                 return smeltingRecipe.getIngredients().get(0).test(itemStack);
             })).findFirst();
 
-                if (recipe.isPresent() && neutralEffectRandomNumber(new Random(), 0 , 10) < (level *1.5)) {
+                if (recipe.isPresent() && neutralEffectRandomNumber(new Random(), 0 , 10) < (level * 1.5)) {
                     ItemStack smelted = recipe.get().getOutput();
                     smelted.setCount(itemStack.getCount());
                     items.add(smelted);

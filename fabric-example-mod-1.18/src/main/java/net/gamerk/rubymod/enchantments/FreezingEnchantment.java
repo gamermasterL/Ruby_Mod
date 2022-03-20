@@ -21,9 +21,6 @@ public class FreezingEnchantment extends Enchantment {
         super.onTargetDamaged(user, target, level);
 
         if (!user.world.isClient()) {
-            ServerWorld world = ((ServerWorld) user.world);
-            PlayerEntity player = ((PlayerEntity) user);
-
             float chance = user.getRandom().nextFloat();
             if (chance <= 0.3 + (level * 0.1)) {
                 FreezingEnchantment.causeFreezing((LivingEntity) target, 100);

@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "rubymod:block/cherry_planks",
+        "weight": 1
+      },
+      {
+        "model": "rubymod:block/cherry_planks1",
+        "weight": 1
+      },
+      {
+        "model": "rubymod:block/cherry_planks2",
+        "weight": 1
+      }
+    ]
+  }
+}

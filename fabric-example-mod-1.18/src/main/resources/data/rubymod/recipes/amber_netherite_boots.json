@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "addition": {
+    "item": "rubymod:amber_netherite_ingot"
+  },
+  "result": {
+    "item": "rubymod:amber_netherite_boots"
+  }
+}

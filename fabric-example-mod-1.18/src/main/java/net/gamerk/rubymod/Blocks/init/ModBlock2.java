@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.gamerk.rubymod.RubyMod;
 import net.gamerk.rubymod.item.ModItemGroup;
+import net.gamerk.rubymod.item.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
@@ -18,6 +19,8 @@ public class ModBlock2 {
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.COBALT);
     public static final Block COBALT_ORE = registerBlock("cobalt_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.6f).requiresTool()), ModItemGroup.COBALT);
+    public static final Block DEEPSLATE_COBALT_ORE = registerBlock("deepslate_cobalt_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.6f, 1.5f).requiresTool()), ModItemGroup.COBALT);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

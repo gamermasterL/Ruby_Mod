@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rubymod:amber"
+    },
+    "@": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "rubymod:amber_netherite_ingot"
+  }
+}

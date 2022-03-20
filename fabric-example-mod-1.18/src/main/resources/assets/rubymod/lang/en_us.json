@@ -1,4 +1,37 @@
 {
+  "item.rubymod.amber": "Amber",
+  "item.rubymod.amber_fragment": "Amber Fragment",
+  "item.rubymod.amber_netherite_ingot": "Amber Netherite Ingot",
+  "item.rubymod.wood_resin": "Wood Resin",
+
+  "item.rubymod.amber_axe": "Amber Axe",
+  "item.rubymod.amber_pickaxe": "Amber Pickaxe",
+
+  "item.rubymod.amber_netherite_pickaxe": "Amber Netherite Pickaxe",
+  "item.rubymod.amber_netherite_axe": "Amber Netherite Axe",
+
+  "item.rubymod.amber_helmet": "Amber Helmet",
+  "item.rubymod.amber_chestplate": "Amber Chest Plate",
+  "item.rubymod.amber_leggings": "Amber Leggings",
+  "item.rubymod.amber_boots": "Amber Boots",
+
+  "item.rubymod.amber_netherite_helmet": "Amber Netherite Helmet",
+  "item.rubymod.amber_netherite_chestplate": "Amber Netherite Chest Plate",
+  "item.rubymod.amber_netherite_leggings": "Amber Nertherite Leggings",
+  "item.rubymod.amber_netherite_boots": "Amber Netherite Boots",
+
+  "item.rubymod.non_baked_amber_ingredient": "Non-Baked Amber Ingedient",
+
+  "block.rubymod.amber_block": "Amber Block",
+  "block.rubymod.resin_block": "Resin Block",
+  "block.rubymod.cherry_log": "Cherry Log",
+  "block.rubymod.cherry_wood": "Cherry Wood",
+  "block.rubymod.stripped_cherry_log":"Stripped Cherry Log",
+  "block.rubymod.stripped_cherry_wood":"Stripped Cherry Wood",
+  "block.rubymod.cherry_planks":"Cherry Planks",
+  "block.rubymod.cherry_leaves":"Cherry Leaves",
+  "block.rubymod.cherry_sapling":"Cherry Sapling",
+
   "item.rubymod.topaz": "Topaz",
   "item.rubymod.topaz_fragment": "Topaz Fragment",
   "item.rubymod.topaz_netherite_ingot": "Topaz Netherite Ingot",
@@ -10,10 +43,6 @@
   "item.rubymod.topaz_shovel": "Topaz Shovel",
 
   "item.rubymod.topaz_netherite_sword": "Topaz Netherite Sword",
-  "item.rubymod.topaz_netherite_axe": "Topaz Netherite Axe",
-  "item.rubymod.topaz_netherite_hoe": "Topaz Netherite hoe",
-  "item.rubymod.topaz_netherite_pickaxe": "Topaz Netherite Pickaxe",
-  "item.rubymod.topaz_netherite_shovel": "Topaz Netherite Shovel",
 
   "item.rubymod.topaz_helmet": "Topaz Helmet",
   "item.rubymod.topaz_chestplate": "Topaz Chest Plate",
@@ -65,6 +94,7 @@
 
   "block.rubymod.cobalt_block": "Cobalt Block",
   "block.rubymod.cobalt_ore": "Cobalt Ore",
+  "block.rubymod.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
 
   "item.rubymod.ruby": "Ruby",
   "item.rubymod.ruby_fragments": "Ruby Fragment",
@@ -98,7 +128,6 @@
 
   "item.rubymod.non_baked_ruby_ingredient": "Non-Baked Ruby Ingedient",
 
-
   "block.rubymod.ruby_block": "Runy Block",
   "block.rubymod.ruby_ore": "Ruby Ore",
   "block.rubymod.ruby_ore_deepslate": "Deepslate Ruby Ore",
@@ -106,14 +135,16 @@
   "block.rubymod.pressure": "Pressure Machine",
   "itemGroup.rubymod.ruby": "Jewel-Ruby",
   "itemGroup.rubymod.cobalt": "Jewel-Cobalt",
-  "itemGroup.rubymod.topaz_ore": "Jewel-Topaz",
+  "itemGroup.rubymod.topaz": "Jewel-Topaz",
+  "itemGroup.rubymod.amber": "Jewel-Amber",
 
   "enchantment.rubymod.explode": "Explode",
   "enchantment.rubymod.freezing": "Freezing",
   "enchantment.rubymod.weakness": "Weakness",
   "enchantment.rubymod.slowness": "Slowness",
   "enchantment.rubymod.lightning": "Lightning Strike",
-  "enchantment.rubymod.nether_boost": "Nether Boost",
+  "enchantment.rubymod.smelting": "Smelting Touch",
+  "enchantment.rubymod.magnetic": "Magnetic",
   "item.rubymod.heated_quartz": "Heated Quartz",
   "item.rubymod.quartz_dust": "Quartz Dust"
 }

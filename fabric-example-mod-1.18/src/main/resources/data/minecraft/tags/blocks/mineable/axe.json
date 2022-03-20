@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-
+    "rubymod:cherry_log",
+    "rubymod:cherry_wood",
+    "rubymod:stripped_cherry_log",
+    "rubymod:stripped_cherry_wood",
+    "rubymod:cherry_planks"
   ]
 }

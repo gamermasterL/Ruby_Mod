@@ -1,0 +1,15 @@
+{
+  "type": "rubymod:pressure",
+  "weather": "thundering",
+  "ingredients": [
+    {
+      "item": "rubymod:cherry_log"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "output": {
+    "item": "rubymod:wood_resin"
+  }
+}

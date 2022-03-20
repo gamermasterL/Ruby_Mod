@@ -96,16 +96,6 @@ public class ModItems {
     public static final Item RUBY_BOW = registerItem("ruby_bow",
             new RubyBow(new FabricItemSettings().maxDamage(600).group(ModItemGroup.RUBY)));
 
-    public static void appendEnchant() {
-        EnchantsList.addEnchant(Registry.ITEM.getId(RUBY_NETHERITE_SWORD),
-                new Identifier("rubymod:explode"), 1, true);
-        EnchantsList.addEnchant(Registry.ITEM.getId(RUBY_BOW),
-                new Identifier("minecraft:flame"),1, true);
-        EnchantsList.addEnchant(Registry.ITEM.getId(RUBY_SWORD),
-                new Identifier("minecraft:fire_aspect"),1, true);
-    }
-
-
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(RubyMod.MOD_ID, name), item);
     }

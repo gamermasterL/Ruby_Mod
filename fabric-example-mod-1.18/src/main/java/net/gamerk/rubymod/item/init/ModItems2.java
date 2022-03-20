@@ -94,17 +94,6 @@ public class ModItems2 {
     public static final Item COBALT_BOW = registerItem("cobalt_bow",
             new CobaltBow(new FabricItemSettings().maxDamage(600).group(ModItemGroup.COBALT)));
 
-    public static void appendEnchant() {
-        EnchantsList.addEnchant(Registry.ITEM.getId(COBALT_NETHERITE_SWORD),
-                new Identifier("rubymod:freezing"), 1, true);
-        EnchantsList.addEnchant(Registry.ITEM.getId(COBALT_BOW),
-                new Identifier("minecraft:punch"),3, true);
-        EnchantsList.addEnchant(Registry.ITEM.getId(COBALT_SWORD),
-                new Identifier("rubymod:weakness"),1, true);
-    }
-
-
-
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(RubyMod.MOD_ID, name), item);
     }

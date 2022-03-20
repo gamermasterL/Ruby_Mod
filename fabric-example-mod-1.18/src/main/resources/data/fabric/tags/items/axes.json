@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "rubymod:ruby_axe"
+    "rubymod:ruby_axe",
+    "rubymod:cobalt_axe",
+    "rubymod:amber_axe",
+    "rubymod:ruby_netherite_axe",
+    "rubymod:cobalt_netherite_axe",
+    "rubymod:amber_netherite_axe"
+
   ]
 }

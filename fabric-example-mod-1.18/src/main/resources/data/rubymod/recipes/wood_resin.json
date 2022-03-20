@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubymod:resin_block"
+    }
+  ],
+  "result": {
+    "item": "rubymod:wood_resin",
+    "count": 9
+  }
+}

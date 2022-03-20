@@ -1,0 +1,7 @@
+{
+  "parent":"block/leaves_cross2",
+  "textures": {
+    "all":"rubymod:block/cherry_leaves2",
+    "bushy": "rubymod:block/cherry_leaves_bushy"
+  }
+}

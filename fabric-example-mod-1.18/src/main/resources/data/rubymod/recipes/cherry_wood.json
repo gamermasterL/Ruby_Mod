@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "rubymod:cherry_log"
+    }
+  },
+  "result": {
+    "item": "rubymod:cherry_wood"
+  }
+}

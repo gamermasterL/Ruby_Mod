@@ -4,7 +4,6 @@ import com.google.common.collect.ImmutableMap;
 import net.gamerk.rubymod.item.ModArmorMaterial;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -15,8 +14,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 import java.util.Map;
-import java.util.Random;
-
 
 public class ModArmorItem extends ArmorItem {
      private static final Map<ArmorMaterial, StatusEffect> MATERIAL_STATUS_EFFECT_MAP =
@@ -50,7 +47,7 @@ public class ModArmorItem extends ArmorItem {
         super.inventoryTick(stack, world, entity, slot, selected);
     }
 
-    private void evaluateArmorEffects(PlayerEntity player) {
+    public static void evaluateArmorEffects(PlayerEntity player) {
         for (Map.Entry<ArmorMaterial, StatusEffect> entry : MATERIAL_STATUS_EFFECT_MAP.entrySet()) {
             ArmorMaterial mapArmorMaterial = entry.getKey();
             StatusEffect mapStatusEffect = entry.getValue();
@@ -61,15 +58,23 @@ public class ModArmorItem extends ArmorItem {
         }
     }
 
-    private void addStatusEffectForMaterial(PlayerEntity player, ArmorMaterial mapArmorMaterial, StatusEffect mapStatusEffect) {
+    public static void addStatusEffectForMaterial(PlayerEntity player, ArmorMaterial mapArmorMaterial, StatusEffect mapStatusEffect) {
         boolean hasPlayerEffect = player.hasStatusEffect(mapStatusEffect);
         if (hasCorrectArmorOn(mapArmorMaterial, player) && !hasPlayerEffect) {
-            player.addStatusEffect(new StatusEffectInstance(mapStatusEffect, 200,
-                    mapArmorMaterial == ModArmorMaterial.AMBER || mapArmorMaterial == ModArmorMaterial.AMBER_NETHERITE ? 0 : 1));
+            if (mapArmorMaterial == ModArmorMaterial.COBALT) {
+                if (player.isSubmergedInWater() || player.isInsideWaterOrBubbleColumn()) {
+                    player.addStatusEffect(new StatusEffectInstance(mapStatusEffect, 200, 0));
+                }
+            } else if (mapArmorMaterial == ModArmorMaterial.AMBER_NETHERITE) {
+                player.addStatusEffect(new StatusEffectInstance(mapStatusEffect, 200, 2));
+            } else {
+                player.addStatusEffect(new StatusEffectInstance(mapStatusEffect, 200,
+                        mapArmorMaterial == ModArmorMaterial.AMBER ? 0 : 1));
+            }
         }
     }
 
-    private boolean hasFullSuitOfArmorOn(PlayerEntity player) {
+    public static boolean hasFullSuitOfArmorOn(PlayerEntity player) {
         ItemStack boots = player.getInventory().getArmorStack(0);
         ItemStack leggings = player.getInventory().getArmorStack(1);
         ItemStack breastplate = player.getInventory().getArmorStack(2);
@@ -79,7 +84,7 @@ public class ModArmorItem extends ArmorItem {
                 && !leggings.isEmpty() && !boots.isEmpty();
     }
 
-    private boolean hasCorrectArmorOn(ArmorMaterial material, PlayerEntity player) {
+    public static boolean hasCorrectArmorOn(ArmorMaterial material, PlayerEntity player) {
         ArmorItem boots = ((ArmorItem)player.getInventory().getArmorStack(0).getItem());
         ArmorItem leggings = ((ArmorItem)player.getInventory().getArmorStack(1).getItem());
         ArmorItem breastplate = ((ArmorItem)player.getInventory().getArmorStack(2).getItem());

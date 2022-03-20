@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "rubymod:amber_netherite_ingot"
+  },
+  "result": {
+    "item": "rubymod:amber_netherite_pickaxe"
+  }
+}

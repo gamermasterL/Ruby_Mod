@@ -61,17 +61,6 @@ public class ModItems3 {
             new ArmorItem(ModArmorMaterial.TOPAZ_NETHERITE,  EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.TOPAZ)));
 
-    public static void appendEnchant() {
-        EnchantsList.addEnchant(Registry.ITEM.getId(TOPAZ_NETHERITE_SWORD),
-                new Identifier("rubymod:lightning"), 1, true);
-        EnchantsList.addEnchant(Registry.ITEM.getId(TOPAZ_SWORD),
-                new Identifier("rubymod:slowness"),1, true);
-        EnchantsList.addEnchant(Registry.ITEM.getId(TOPAZ_NETHERITE_BOOTS),
-                new Identifier("minecraft:soul_speed"),2,true);
-    }
-
-
-
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(RubyMod.MOD_ID, name), item);
     }

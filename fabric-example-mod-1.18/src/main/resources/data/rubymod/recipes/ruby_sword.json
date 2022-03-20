@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "rubymod:cobalt"
+      "item": "rubymod:ruby"
     },
     "/": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "rubymod:cobalt_sword"
+    "item": "rubymod:ruby_sword"
   }
 }

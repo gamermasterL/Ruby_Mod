@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rubymod:amber_block"
+    }
+  ],
+  "result": {
+    "item": "rubymod:amber",
+    "count": 9
+  }
+}

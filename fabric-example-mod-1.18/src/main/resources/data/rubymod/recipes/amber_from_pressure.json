@@ -1,0 +1,15 @@
+{
+  "type": "rubymod:pressure",
+  "weather": "thundering",
+  "ingredients": [
+    {
+      "item": "rubymod:non_baked_amber_ingredient"
+    },
+    {
+      "item": "rubymod:wood_resin"
+    }
+  ],
+  "output": {
+    "item": "rubymod:amber"
+  }
+}
