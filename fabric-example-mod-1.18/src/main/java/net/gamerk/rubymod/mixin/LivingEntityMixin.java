@@ -74,5 +74,6 @@ import static net.gamerk.rubymod.item.custom.ModArmorItem.hasFullSuitOfArmorOn;
                 callbackInfo.cancel();
             }
         }
+
     }
 }

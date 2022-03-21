@@ -65,6 +65,10 @@ public class ModEnchantment {
             new CurseOfExplodeEnchantment(Enchantment.Rarity.UNCOMMON,
                     EnchantmentTarget.ARMOR, EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET));
 
+    public static Enchantment TELEPORT_ATTACK = register("teleport_attack",
+            new TeleportAttackEnchantment(Enchantment.Rarity.VERY_RARE,
+                    EnchantmentTarget.BOW, EquipmentSlot.MAINHAND));
+
     public static void applyEffectIfNotPresent(LivingEntity livingEntity, StatusEffect statusEffect, int duration, int strength) {
         if(livingEntity.hasStatusEffect(statusEffect)) return;
         livingEntity.addStatusEffect(new StatusEffectInstance(statusEffect, duration*20, strength, true, false));

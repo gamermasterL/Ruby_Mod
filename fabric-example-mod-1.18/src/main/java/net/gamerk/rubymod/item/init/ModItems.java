@@ -7,11 +7,17 @@ import net.gamerk.rubymod.item.ModArmorMaterial;
 import net.gamerk.rubymod.item.ModItemGroup;
 import net.gamerk.rubymod.item.ModToolMaterial;
 import net.gamerk.rubymod.item.custom.*;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
 import wraith.enchant_giver.EnchantsList;
+
+import java.util.List;
 
 
 public class ModItems {
@@ -95,6 +101,7 @@ public class ModItems {
 
     public static final Item RUBY_BOW = registerItem("ruby_bow",
             new RubyBow(new FabricItemSettings().maxDamage(600).group(ModItemGroup.RUBY)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(RubyMod.MOD_ID, name), item);
