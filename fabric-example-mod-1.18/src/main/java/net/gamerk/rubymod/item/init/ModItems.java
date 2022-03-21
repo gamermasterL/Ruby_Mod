@@ -68,11 +68,6 @@ public class ModItems {
             new ModHoeItem(ModToolMaterial.RUBY_NETHERITE, 0, 0f,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
 
-
-    public static final Item RUBY_SHIELD = registerItem("ruby_shield",
-            new FabricShieldItem(new FabricItemSettings().maxDamage(2000).group(ModItemGroup.RUBY),
-                    10,13, ModItems.RUBY));
-
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
             new ModArmorItem(ModArmorMaterial.RUBY,  EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));

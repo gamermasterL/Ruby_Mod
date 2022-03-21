@@ -60,11 +60,6 @@ public class ModItems2 {
             new ModHoeItem(ModToolMaterial.COBALT_NETHERITE, 0, 0f,
                     new FabricItemSettings().group(ModItemGroup.COBALT)));
 
-
-    public static final Item COBALT_SHIELD = registerItem("cobalt_shield",
-            new FabricShieldItem(new FabricItemSettings().maxDamage(2000).group(ModItemGroup.COBALT),
-                    9,14, ModItems2.COBALT));
-
     public static final Item COBALT_HELMET = registerItem("cobalt_helmet",
             new ModArmorItem(ModArmorMaterial.COBALT,  EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ModItemGroup.COBALT)));
